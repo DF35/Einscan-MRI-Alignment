@@ -1,7 +1,7 @@
 # Einscan-MRI-Alignment
 Aligns 3D einscan meshes to those produced from MRI scans to enable the functional information from an OPM-MEG experiment to be overlaid onto structural brain imagery obtained via MRI.
 
-This tool was produced as part of my internship at the UoN OPM-MEG research group, with the aim of seeking to automate a time consuming aspect of their data processing. It takes an initial input of the two preauricular points as well as the underside of the nasal tip and uses this information to transform both meshes into a common coordinate space. The program then attempts to identify common landmarks on both meshes which it then uses to achieve as close of an alignment as possible. 
+This tool was produced as part of my internship at the UoN OPM-MEG research group, with the aim of seeking to automate a time consuming aspect of their data processing. It takes an initial input of the two preauricular points as well as the underside of the nasal tip and uses this information to transform both meshes into a common coordinate space. The program then attempts to identify common landmarks on both meshes which it subsequently uses to achieve as close of an alignment as possible. 
 
 The program outputs the two aligned meshes as well as the transformation matrices used to achieve the alignment. It should be noted that the program has only been tested on caucasian, male faces and therefore the bounds used in each step of the search process may have to be adjusted for wider use.
 
