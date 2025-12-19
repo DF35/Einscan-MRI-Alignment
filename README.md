@@ -18,9 +18,11 @@ Python 3.10.9 was used for development and testing and is recommended for runnin
 ### Setting up the Python Environment
 1. Create your env folder: `python -m venv env`
 
-2. Install the required dependencies: `pip install -r requirements.txt`
+2. Activate the Environment: `.\env\Scripts\activate`
+
+3. Install the required dependencies: `pip install -r requirements.txt`
 
 ### Running the Program
-1. Activate the Environment: `.\env\Scripts\activate`
+1. (If not already done) Activate the Environment: `.\env\Scripts\activate`
 
 2. Run the main script: `python .\head_to_mri.py`
